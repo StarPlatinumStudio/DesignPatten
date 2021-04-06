@@ -25,6 +25,7 @@ public class WeatherData implements Subject{
         }
     }
 
+    //主题利用观察者接口通知观察者->松耦合
     @Override
     public void notifyObserver() {
         for (int i=0;i<observes.size();i++) {

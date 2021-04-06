@@ -1,12 +1,10 @@
 package io.robinwang.observer;
 
 public class HeatIndexDisplay implements Observer,DisplayElement{
-//    private float temperature;
-//    private float humidity;
     private float heatIndex;
-    private Subject weatherData;
+
+    //  观察者利用主题的接口向主题注册，达到松耦合
     public HeatIndexDisplay(Subject weatherData){
-        this.weatherData = weatherData;
         weatherData.registerObserver(this);
     }
     @Override
