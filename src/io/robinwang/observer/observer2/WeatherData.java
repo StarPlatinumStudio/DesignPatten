@@ -1,7 +1,6 @@
-package io.robinwang.observer2;
+package io.robinwang.observer.observer2;
 
 import java.util.Observable;
-import java.util.Observer;
 
 public class WeatherData extends Observable {
     private float temperature;

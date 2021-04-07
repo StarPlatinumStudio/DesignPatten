@@ -1,4 +1,4 @@
-package io.robinwang.observer2;
+package io.robinwang.observer.observer2;
 
 public class WeatherStation2 {
     public static void main(String[] args) {
